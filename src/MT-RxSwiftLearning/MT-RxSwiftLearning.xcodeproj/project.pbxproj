@@ -19,6 +19,8 @@
 		A505485524C1447500594B38 /* MT_RxSwiftLearningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A505485424C1447500594B38 /* MT_RxSwiftLearningTests.swift */; };
 		A505486024C1447500594B38 /* MT_RxSwiftLearningUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A505485F24C1447500594B38 /* MT_RxSwiftLearningUITests.swift */; };
 		A505487024C14C5E00594B38 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A505486F24C14C5E00594B38 /* LoginVC.swift */; };
+		A505487324C1895D00594B38 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A505487224C1895D00594B38 /* Observable.swift */; };
+		A505487524C191EC00594B38 /* Single.swift in Sources */ = {isa = PBXBuildFile; fileRef = A505487424C191EC00594B38 /* Single.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,8 @@
 		A505485F24C1447500594B38 /* MT_RxSwiftLearningUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MT_RxSwiftLearningUITests.swift; sourceTree = "<group>"; };
 		A505486124C1447500594B38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A505486F24C14C5E00594B38 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		A505487224C1895D00594B38 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		A505487424C191EC00594B38 /* Single.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Single.swift; sourceTree = "<group>"; };
 		F443FC725758B9335BE56DC6 /* Pods_MT_RxSwiftLearningTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MT_RxSwiftLearningTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -115,6 +119,7 @@
 		A505483924C1447200594B38 /* MT-RxSwiftLearning */ = {
 			isa = PBXGroup;
 			children = (
+				A505487124C1891100594B38 /* Observable */,
 				A505486E24C14BF800594B38 /* Login */,
 				A505483A24C1447200594B38 /* AppDelegate.swift */,
 				A505483C24C1447200594B38 /* SceneDelegate.swift */,
@@ -152,6 +157,15 @@
 				A505486F24C14C5E00594B38 /* LoginVC.swift */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		A505487124C1891100594B38 /* Observable */ = {
+			isa = PBXGroup;
+			children = (
+				A505487224C1895D00594B38 /* Observable.swift */,
+				A505487424C191EC00594B38 /* Single.swift */,
+			);
+			path = Observable;
 			sourceTree = "<group>";
 		};
 		C07849E0DC1CEEEFC0327CD1 /* Frameworks */ = {
@@ -394,6 +408,8 @@
 				A505483B24C1447200594B38 /* AppDelegate.swift in Sources */,
 				A505484524C1447200594B38 /* MT_RxSwiftLearning.xcdatamodeld in Sources */,
 				A505483D24C1447200594B38 /* SceneDelegate.swift in Sources */,
+				A505487524C191EC00594B38 /* Single.swift in Sources */,
+				A505487324C1895D00594B38 /* Observable.swift in Sources */,
 				A505487024C14C5E00594B38 /* LoginVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
