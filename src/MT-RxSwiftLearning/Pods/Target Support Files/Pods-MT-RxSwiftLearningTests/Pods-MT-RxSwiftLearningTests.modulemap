@@ -1,0 +1,6 @@
+framework module Pods_MT_RxSwiftLearningTests {
+  umbrella header "Pods-MT-RxSwiftLearningTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
