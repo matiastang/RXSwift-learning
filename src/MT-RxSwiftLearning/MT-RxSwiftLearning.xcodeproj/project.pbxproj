@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,6 +18,7 @@
 		A505484A24C1447500594B38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A505484824C1447500594B38 /* LaunchScreen.storyboard */; };
 		A505485524C1447500594B38 /* MT_RxSwiftLearningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A505485424C1447500594B38 /* MT_RxSwiftLearningTests.swift */; };
 		A505486024C1447500594B38 /* MT_RxSwiftLearningUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A505485F24C1447500594B38 /* MT_RxSwiftLearningUITests.swift */; };
+		A505487024C14C5E00594B38 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A505486F24C14C5E00594B38 /* LoginVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		A505485B24C1447500594B38 /* MT-RxSwiftLearningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MT-RxSwiftLearningUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A505485F24C1447500594B38 /* MT_RxSwiftLearningUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MT_RxSwiftLearningUITests.swift; sourceTree = "<group>"; };
 		A505486124C1447500594B38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A505486F24C14C5E00594B38 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		F443FC725758B9335BE56DC6 /* Pods_MT_RxSwiftLearningTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MT_RxSwiftLearningTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -113,6 +115,7 @@
 		A505483924C1447200594B38 /* MT-RxSwiftLearning */ = {
 			isa = PBXGroup;
 			children = (
+				A505486E24C14BF800594B38 /* Login */,
 				A505483A24C1447200594B38 /* AppDelegate.swift */,
 				A505483C24C1447200594B38 /* SceneDelegate.swift */,
 				A505483E24C1447200594B38 /* ViewController.swift */,
@@ -143,6 +146,14 @@
 			path = "MT-RxSwiftLearningUITests";
 			sourceTree = "<group>";
 		};
+		A505486E24C14BF800594B38 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				A505486F24C14C5E00594B38 /* LoginVC.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 		C07849E0DC1CEEEFC0327CD1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -160,7 +171,6 @@
 				A40E20A47C96874078B77EC9 /* Pods-MT-RxSwiftLearningTests.debug.xcconfig */,
 				09E3E42FFBEB3D9C73300381 /* Pods-MT-RxSwiftLearningTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -384,6 +394,7 @@
 				A505483B24C1447200594B38 /* AppDelegate.swift in Sources */,
 				A505484524C1447200594B38 /* MT_RxSwiftLearning.xcdatamodeld in Sources */,
 				A505483D24C1447200594B38 /* SceneDelegate.swift in Sources */,
+				A505487024C14C5E00594B38 /* LoginVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,7 +499,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -542,7 +553,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -558,7 +569,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = L8P83T5L9B;
+				DEVELOPMENT_TEAM = 34E443NFE9;
 				INFOPLIST_FILE = "MT-RxSwiftLearning/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -577,7 +588,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = L8P83T5L9B;
+				DEVELOPMENT_TEAM = 34E443NFE9;
 				INFOPLIST_FILE = "MT-RxSwiftLearning/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
