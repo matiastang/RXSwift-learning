@@ -1,4 +1,5 @@
 PODS:
+  - IQKeyboardManager (6.5.5)
   - RxBlocking (5.1.1):
     - RxSwift (~> 5)
   - RxCocoa (5.1.1):
@@ -11,12 +12,15 @@ PODS:
     - RxSwift (~> 5)
 
 DEPENDENCIES:
+  - IQKeyboardManager
   - RxBlocking
   - RxCocoa
   - RxSwift
   - RxTest
 
 SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - IQKeyboardManager
   trunk:
     - RxBlocking
     - RxCocoa
@@ -25,12 +29,13 @@ SPEC REPOS:
     - RxTest
 
 SPEC CHECKSUMS:
+  IQKeyboardManager: 3a8b9e603f8b0eeaf5f096a1f2b2cfcf121992ef
   RxBlocking: 5f700a78cad61ce253ebd37c9a39b5ccc76477b4
   RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
   RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
   RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
   RxTest: 711632d5644dffbeb62c936a521b5b008a1e1faa
 
-PODFILE CHECKSUM: 369b344e52d72482ad0e7db3f52796897e9a4ced
+PODFILE CHECKSUM: 0d496a417aef4a3ca52801966b1edf715be9a45d
 
 COCOAPODS: 1.9.1

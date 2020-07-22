@@ -1,14 +1,16 @@
 # Podfile
 
 # source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
+source 'https://github.com/CocoaPods/Specs.git'
 
-platform :ios, '13.6'
+platform :ios, '13.0'
 
 use_frameworks!
 
 target 'MT-RxSwiftLearning' do
     pod 'RxSwift'
     pod 'RxCocoa'
+    pod 'IQKeyboardManager'
 end
 
 # RxTests 和 RxBlocking 将在单元/集成测试中起到重要作用
